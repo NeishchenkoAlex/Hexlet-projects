@@ -4,4 +4,10 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.9"
-dependencies = []
+dependencies = [
+    "black>=25.1.0",
+    "more-itertools>=10.6.0",
+    "pytest>=8.3.4",
+    "ruff>=0.9.4",
+    "tree>=0.2.4",
+]
